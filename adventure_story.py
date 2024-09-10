@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Arden Boettcher
+# 9/10
 # f-String Adventure Story
 
 '''
@@ -21,3 +21,20 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+bold = '\033[1m' # this stuff is purely formatting
+end = '\033[0m' # making the variables bold lets them be easier to diferentiate from the other text
+
+print('What is the hero\'s name?')
+
+hero_name = input()
+
+print('What is the story?')
+
+story = input()
+
+print('What do they find?')
+
+item = input()
+
+print('So to summerize: ' + bold + hero_name + end + ' is the name of the hero. ' + bold + story + end +  ' is the story during which they find ' + bold + item + end)
