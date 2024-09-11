@@ -37,4 +37,4 @@ print('What do they find?')
 
 item = input()
 
-print('So to summerize: ' + bold + hero_name + end + ' is the name of the hero. ' + bold + story + end +  ' is the story during which they find ' + bold + item + end)
+print('So to summerize: ' + bold + hero_name.title + end + ' is the name of the hero. ' + bold + story + end +  ' is the story during which they find ' + bold + item + end)
